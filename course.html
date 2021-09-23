@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome 4 cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <script src="https://use.fontawesome.com/9792385f41.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="#"><img src="/imge/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!-- Course -->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Hugh Balsham, the archbishop, founded Butterhouse College in 1284,
+        Cambridge's first college.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            In the Middle Ages, colleges were founded urging their students to
+            pray for the souls of the founders. For this reason it is often
+            associated with churches or monasteries. A change of emphasis on
+            colleges occurred in 1536 with the dissolution of the monasteries.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            In the Middle Ages, colleges were founded urging their students to
+            pray for the souls of the founders. For this reason it is often
+            associated with churches or monasteries. A change of emphasis on
+            colleges occurred in 1536 with the dissolution of the monasteries.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Groduation</h3>
+          <p>
+            In the Middle Ages, colleges were founded urging their students to
+            pray for the souls of the founders. For this reason it is often
+            associated with churches or monasteries. A change of emphasis on
+            colleges occurred in 1536 with the dissolution of the monasteries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+      <h1>Our facilities</h1>
+      <p>
+        Hugh Balsham, the archbishop, founded Butterhouse College in 1284,
+        Cambridge's first college.
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="/imge/campus_green_455.jpg" alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Hugh Balsham, the archbishop, founded Butterhouse College in 1284,
+            Cambridge's first college.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img
+            src="/imge/BarclayCrousse_University-Facilities-UDEP_07.jpg"
+            alt=""
+          />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Hugh Balsham, the archbishop, founded Butterhouse College in 1284,
+            Cambridge's first college.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="/imge/2436e51277797ea4bb07547e549085c2.jpg" alt="" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Hugh Balsham, the archbishop, founded Butterhouse College in 1284,
+            Cambridge's first college.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Hugh Balsham, the archbishop, founded Butterhouse College in 1284,
+        Cambridge's first college. Hugh Balsham, the archbishop, founded
+        Butterhouse College in 1284, Cambridge's <br />
+        first college. Hugh Balsham,the archbishop, founded Butterhouse College
+        in 1284, Cambridge's first college.
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Almuhannad Saif</p>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

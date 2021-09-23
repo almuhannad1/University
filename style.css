@@ -10,7 +10,7 @@
       rgba(105, 71, 148, 0.5),
       rgba(105, 71, 148, 0.5)
     ),
-    url(/imge/myhc_294874.jpg);
+    url(imge/myhc_294874.jpg);
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -301,7 +301,7 @@ h3 {
   margin: 100px auto;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/imge/pexels-fox-1595385.jpg);
+    url(imge/pexels-fox-1595385.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -345,7 +345,7 @@ h3 {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(/imge/background.jpg);
+    url(imge/background.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
